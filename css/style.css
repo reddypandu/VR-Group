@@ -120,6 +120,8 @@
   position: sticky;
   padding: 0;
   z-index: 9999;
+  background-color: white !important;
+  box-shadow: 2px 3px 4px var(--woodsmoke);
 }
 
 .navbar {
@@ -148,11 +150,16 @@
   background-color: var(--oxford-blue);
   text-transform: uppercase;
   outline: none;
+  border-radius: 20px;
+  border: 1px solid var(--brandy);
 }
-
+/* .navbar.scrolled {
+  background-color: white !important;
+} */
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
   color: var(--cape-palliser);
+  background-color: var(--light);
 }
 
 @media (max-width: 991.98px) {
@@ -176,7 +183,6 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: var(--hippie-blue);
   font-weight: 900;
   font-size: 1rem !important;
 }
