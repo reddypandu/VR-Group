@@ -96,10 +96,23 @@
                         <div class="owl-carousel-item">
                             <img class="desktop" src="img/homeimg (7).jpeg" alt="">
                             <img class="mobile" src="img/homeimg (6)1.jpeg" alt="">
+                            <div class="hero-content">
+                                <h2>Real Estate Services</h2>
+                            </div>
                         </div>
                         <div class="owl-carousel-item">
                             <img class="desktop" src="img/homeimg (4)1.jpeg" alt="">
                             <img class="mobile" src="img/homeimg (4).jpeg" alt="">
+                            <div class="hero-content"> 
+                                <h2>BankNifty Intraday Calls</h2>
+                            </div>
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img class="desktop" src="img/homeimg (11).jpeg" alt="">
+                            <img class="mobile" src="img/homeimg (11)1.jpeg" alt="">
+                            <div class="hero-content">
+                                <h2>Digital Marketing Services</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -111,7 +124,21 @@
             .header-carousel img.mobile {
                 display: none;
             }
-
+.hero-content{
+    position: absolute;
+    z-index: 99999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero-content h2{
+    color: white;
+    border: 2px solid white;
+  padding: 1rem;
+  border: 6px solid white;
+  background-color: rgba(0, 0, 0, 0.498);
+  text-transform: uppercase;
+}
             @media(max-width:992px) {
                 .header-carousel img.mobile {
                     display: block;
@@ -128,11 +155,7 @@
         <div class="container-xxl py-5" id="about">
             <div class="container">
                 <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                            <img class="img-fluid w-100" src="img/about.jpg">
-                        </div>
-                    </div>
+                    
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                         <h2 class="">About us</h2>
                         <h1 class="mb-4">Welcome To VR Infra Group</h1>
@@ -147,114 +170,17 @@
                         <p><i class="fa fa-check text-primary me-3"></i>Digital Marketing</p>
                         <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
                     </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                            <img class="img-fluid w-100" src="img/about.jpg">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- About End -->
 
-        <!-- Category Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h1 class="mb-3">Property Types</h1>
-                    <p>Explore a diverse range of real estate property types with VR Group. From residential havens to
-                        commercial spaces, we offer a portfolio that caters to your unique needs. Discover the perfect
-                        property that aligns with your lifestyle or business aspirations. Your dream space awaits within
-                        our comprehensive selection.</p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-apartment.png" alt="Icon">
-                                </div>
-                                <h6>Apartment</h6>
-                                <span>123 Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-villa.png" alt="Icon">
-                                </div>
-                                <h6>Villa</h6>
-                                <span>123 Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-house.png" alt="Icon">
-                                </div>
-                                <h6>Home</h6>
-                                <span>123 Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-housing.png" alt="Icon">
-                                </div>
-                                <h6>Office</h6>
-                                <span>123 Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-building.png" alt="Icon">
-                                </div>
-                                <h6>Building</h6>
-                                <span>123 Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-neighborhood.png" alt="Icon">
-                                </div>
-                                <h6>Townhouse</h6>
-                                <span>123 Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-condominium.png" alt="Icon">
-                                </div>
-                                <h6>Shop</h6>
-                                <span>123 Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-luxury.png" alt="Icon">
-                                </div>
-                                <h6>Garage</h6>
-                                <span>123 Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Category End -->
+        
 
 
 
@@ -262,131 +188,61 @@
         <!-- Property List Start -->
         <div class="container-xxl py-5" id="services">
             <div class="container">
-                <div class="row g-0 gx-5 align-items-end">
-                    <div class="col-lg-12">
+                <h1 class="mb-3 text-center">Our Services</h1>
+                <div class="row g-0 gx-5">
+                    <div class="col-lg-4">
                         <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                            <h1 class="mb-3 text-center">Our Services</h1>
-                            <h2>Real
-                                Estate </h2>
+                            <h2>Real Estate </h2>
                             <p>Unlock the door to your dream home with VR Group's Real Estate services. Whether buying,
                                 selling, or investing, our dedicated team ensures a seamless experience. From
                                 residential gems to commercial spaces, we guide you through every step of the real
                                 estate journey. Trust VR Group for personalized solutions and unparalleled expertise in
                                 the property market.</p>
+                                <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
                         </div>
                     </div>
-
-                </div>
-                <div class="tab-content">
-                    <div id="tab-1" class="tab-pane fade show p-0 active">
-                        <div class="row g-4">
-                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-1.jpg" alt=""></a>
-                                        <div
-                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                            For Sell</div>
-                                        <div
-                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                                            Appartment</div>
-                                    </div>
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$12,345</h5>
-                                        <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York,
-                                            USA</p>
-                                    </div>
-                                    <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i
-                                                class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
-                                        <small class="flex-fill text-center border-end py-2"><i
-                                                class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                        <small class="flex-fill text-center py-2"><i
-                                                class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
-                                <a class="btn btn-primary py-3 px-5" href="">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-0 gx-5 align-items-end">
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
-
                             <h2>BankNifty
                                 intraday Calls</h2>
                             <p>Elevate your financial strategies with VR Group's BankNifty intraday calls. Our expert
                                 analyses and timely insights empower you to make informed decisions in the dynamic stock
                                 market. Join us for precision, reliability, and success in your intraday trading
                                 journey. Maximize your opportunities with our strategic BankNifty calls.</p>
+                                <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
                         </div>
                     </div>
-
-                </div>
-                <div class="tab-content">
-                    <div id="tab-1" class="tab-pane fade show p-0 active">
-                        <div class="row g-4">
-                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href=""><img class="img-fluid" src="img/property-1.jpg" alt=""></a>
-                                        <div
-                                            class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">
-                                            For Sell</div>
-                                        <div
-                                            class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-                                            Appartment</div>
-                                    </div>
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$12,345</h5>
-                                        <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
-                                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York,
-                                            USA</p>
-                                    </div>
-                                    <div class="d-flex border-top">
-                                        <small class="flex-fill text-center border-end py-2"><i
-                                                class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small>
-                                        <small class="flex-fill text-center border-end py-2"><i
-                                                class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                        <small class="flex-fill text-center py-2"><i
-                                                class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
-                                <a class="btn btn-primary py-3 px-5" href="">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-0 gx-5 align-items-end">
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
-
                             <h2>Digital
                                 Marketing</h2>
                             <p>Elevate your online presence with VR Group's Digital Marketing services. We specialize in
                                 crafting tailored strategies for maximum impact. From SEO to social media, our team
                                 ensures your brand stands out in the digital landscape. Drive engagement, increase
                                 visibility, and achieve your marketing goals with our expertise.</p>
+                                <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
                         </div>
                     </div>
+                </div>
+               
+            </div>
+        </div>
+        <style>
+        
+        </style>
+        <!-- <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-0 gx-5 align-items-end">
+                    
+
+                </div>
+               
+            </div>
+        </div>
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-0 gx-5 align-items-end">
+                    
 
                 </div>
                 <div class="tab-content">
@@ -428,7 +284,7 @@
 
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Property List End -->
 
 
@@ -443,7 +299,7 @@
                             </div>
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="mb-4">
-                                    <h1 class="mb-3">Contact With Our Certified Agent</h1>
+                                    <h1 class="mb-3">Contact With Our Agent</h1>
                                     <p>Get in touch with our certified agents for expert guidance and personalized
                                         assistance. Whether buying, selling, or investing, our team is committed to your
                                         real estate success. Contact us today to embark on a seamless property journey
@@ -567,7 +423,7 @@
                                         <label for="message">Message</label>
                                     </div>
                                 </div>
-                                <div class="col-2">
+                                <div class="col-lg-2 col-xs-12">
                                     <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                                 </div>
                             </div>
@@ -591,7 +447,7 @@
         </div>
 
         <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn footer" id="gallery" data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-4 col-md-6">
@@ -609,8 +465,8 @@
                             <a class="btn btn-outline-light btn-social"
                                 href="https://www.facebook.com/vrinfra999?mibextid=igr4a4"><i
                                     class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="tel:+919030999639"><i class="fa fa-phone-alt"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -618,8 +474,8 @@
                         <a class="btn btn-link text-white-50" href="#about">About Us</a>
                         <a class="btn btn-link text-white-50" href="#contact">Contact Us</a>
                         <a class="btn btn-link text-white-50" href="#services">Our Services</a>
-                        <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
-                        <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+                        <a class="btn btn-link text-white-50" href="#">Privacy Policy</a>
+                        <a class="btn btn-link text-white-50" href="#">Terms & Condition</a>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <h5 class="text-white mb-4">Photo Gallery</h5>
@@ -644,16 +500,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Newsletter</h5>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                                placeholder="Your email">
-                            <button type="button"
-                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                        </div>
-                    </div> -->
+                   
                 </div>
             </div>
             <div class="container">
@@ -661,14 +508,14 @@
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                             &copy; <a class="border-bottom" href="#">VR Group</a>, All Right Reserved.
-                            Designed By <a class="border-bottom" href="#">Hariram</a>
+                            Designed By <a class="border-bottom" href="#">VR Group</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
                                 <a href="#">Home</a>
-                                <a href="">Cookies</a>
+                                <a href="#">Cookies</a>
                                 <a href="#contact">Help</a>
-                                <a href="">FQAs</a>
+                                <a href="#">FQAs</a>
                             </div>
                         </div>
                     </div>
@@ -683,7 +530,12 @@
     </div>
 
 
-    <a href="https://wa.me/919052978999" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+    <a href="https://wa.me/+919052978999" class="whatsapp">
+        <i class="bi bi-whatsapp"></i>
+        <div>
+            <p>Chat With Us!</p>
+        </div>
+    </a>
 
 
     <style>
