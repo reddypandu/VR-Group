@@ -165,10 +165,10 @@
   height: 10vh;
 }
 @media (max-width: 992px) {
-  #about,
+  /* #about,
   #services {
     height: 35vh;
-  }
+  } */
 }
 .navbar {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
