@@ -58,6 +58,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   scroll-behavior: smooth;
+  /* padding-top: 35rem; */
 }
 hr {
   margin: 1rem 0;
@@ -6821,7 +6822,7 @@ fieldset:disabled .btn {
 .text-muted {
   color: #6c757d !important;
 }
-.footer a{
+.footer a {
   color: var(--light);
 }
 .text-black-50 {

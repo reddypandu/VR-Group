@@ -160,9 +160,10 @@
   background-color: white !important;
   box-shadow: 2px 3px 4px var(--woodsmoke);
 }
+
 #about,
 #services {
-  height: 10vh;
+  /* height: 8vh; */
 }
 @media (max-width: 992px) {
   /* #about,
